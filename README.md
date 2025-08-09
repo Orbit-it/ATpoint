@@ -1,7 +1,7 @@
 # 📁 Structure du Projet ATpoint
 
 ```text
-/biopointeuse-app
+/ATpoint
 ├── App.js                      # Point d'entrée principal de l'application
 ├── app.json                    # Configuration Expo (si utilisé)
 ├── package.json                # Dépendances et scripts NPM/Yarn
