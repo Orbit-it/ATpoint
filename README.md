@@ -1,4 +1,4 @@
-# 📁 Structure du Projet Biopointeuse
+# 📁 Structure du Projet ATpoint
 
 ```text
 /biopointeuse-app
@@ -41,37 +41,7 @@
 
 ---
 
-## 🔧 Prérequis Techniques
-- **OS Cible** : Android 10+ (mode kiosque) / iOS 14+ (limitations accrues).
-- **Matériel Recommandé** : 
-  - Caméra HD + NFC (ex: Zebra TC26).
-  - Root possible pour désactiver les boutons physiques.
 
----
 
-## 📦 Installation
-```bash
-# 1. Cloner le dépôt
-git clone https://github.com/votreuser/biopointeuse-app.git
 
-# 2. Installer les dépendances
-npm install
 
-# 3. Lancer l'application (Expo)
-npm start
-```
-
-> **Note** : Pour déployer en mode production sur une pointeuse, utilisez [EAS Build](https://docs.expo.dev/build/setup/) pour générer un `.apk` standalone.
-
----
-
-## 🌟 Bonus GitHub
-Pour une arborescence visuelle dynamique dans votre README, utilisez ce snippet (nécessite GitHub Actions) :
-
-```yaml
-# .github/workflows/tree.yml
-- name: Generate Folder Structure
-  run: tree -I 'node_modules|.git' -L 3 --dirsfirst >> README.md
-```
-
-*(Exemple de rendu [ici](https://github.com/marketplace/actions/folder-structure-generator))*
